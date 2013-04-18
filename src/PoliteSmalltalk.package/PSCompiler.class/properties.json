@@ -1,0 +1,14 @@
+{
+	"category" : "PoliteSmalltalk-LanguageBox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"IdentifierToken" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSCompiler",
+	"pools" : [
+		 ],
+	"super" : "PSGrammar",
+	"type" : "normal" }

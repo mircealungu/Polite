@@ -1,0 +1,14 @@
+{
+	"category" : "PoliteSmalltalk-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSLanguageBoxTest",
+	"pools" : [
+		 ],
+	"super" : "LBTestCase",
+	"type" : "normal" }

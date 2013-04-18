@@ -1,0 +1,15 @@
+{
+	"category" : "PoliteSmalltalk-LanguageBox",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"IdentifierToken",
+		"UnaryToken" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSHighlighter",
+	"pools" : [
+		 ],
+	"super" : "PSGrammar",
+	"type" : "normal" }
