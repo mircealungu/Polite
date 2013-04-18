@@ -1,0 +1,4 @@
+PoliteSmalltalk
+===============
+
+Smalltalk with sentences!
