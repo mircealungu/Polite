@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 as string
-	^ self asString
+	^  '9'

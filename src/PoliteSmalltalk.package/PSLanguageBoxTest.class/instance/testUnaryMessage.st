@@ -1,5 +1,5 @@
 as yet unclassified
-testUnaryMessage1
+testUnaryMessage
 	| object string |
 	object := ObjectSample new.
 	string := object as string.
