@@ -1,7 +1,7 @@
 Polite Smalltalk
 ================
 
-Polite Smalltalk is Smalltalk with sentences!
+Polite Smalltalk is (going to be very soon) a Smalltalk with sentences!
 See more at: http://scg.unibe.ch/research/Polite
 
 Installation
