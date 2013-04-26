@@ -6,4 +6,5 @@ See more at: http://scg.unibe.ch/research/Polite
 
 Installation
 ------------
-Clone. Then run: ./base-image/get-polite.sh
+Clone. 
+Run: ./base-image/get-polite.sh
