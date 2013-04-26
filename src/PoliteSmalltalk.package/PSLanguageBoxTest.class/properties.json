@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"as",
-		"new" ],
+		"new",
+		"some" ],
 	"name" : "PSLanguageBoxTest",
 	"pools" : [
 		 ],
