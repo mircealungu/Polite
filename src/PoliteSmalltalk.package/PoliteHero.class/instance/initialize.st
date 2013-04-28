@@ -5,3 +5,4 @@ initialize
 	position := PolitePoint new.
 	position x: 0.
 	position y: 0.
+	experience := 1.

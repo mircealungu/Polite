@@ -2,6 +2,7 @@
 	"class" : {
 		"languageBoxes" : "Mirc 4/18/2013 14:25" },
 	"instance" : {
-		"testKeywordMessage" : "MirceaLungu 4/28/2013 13:47",
-		"testUnaryMessage" : "MirceaLungu 4/27/2013 00:34",
+		"testKeywordMessage" : "MirceaLungu 4/28/2013 13:57",
+		"testUnaryMessage" : "MirceaLungu 4/28/2013 13:53",
+		"testUnaryMessageInExpression" : "MirceaLungu 4/28/2013 13:58",
 		"testUnarySequence" : "MirceaLungu 4/27/2013 00:36" } }

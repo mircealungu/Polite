@@ -1,3 +1,3 @@
 accessing
 get x
-	^x
+	^ x
