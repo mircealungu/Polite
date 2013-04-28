@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ObjectSample",
+		"position",
+		"health",
+		"experience" ],
+	"name" : "PoliteHero",
 	"pools" : [
 		 ],
 	"super" : "Object",

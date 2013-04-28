@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"compile:classified:withStamp:notifying:logSource:" : "MirceaLungu 4/27/2013 00:24",
+		"languageBoxes" : "Mirc 4/18/2013 14:24",
+		"languageBoxesHighlight" : "Mirc 4/18/2013 14:24",
+		"languageBoxesParser" : "Mirc 4/18/2013 14:24",
+		"recompile:from:" : "Mirc 4/18/2013 14:24",
+		"securelyCompile:do:" : "Mirc 4/18/2013 14:24" },
+	"instance" : {
+		"get health" : "MirceaLungu 4/27/2013 00:11",
+		"get position" : "MirceaLungu 4/26/2013 23:53",
+		"health:" : "MirceaLungu 4/27/2013 00:11",
+		"increase health with twenty percent" : "MirceaLungu 4/27/2013 00:21",
+		"increaseExperiencePointsWith:" : "MirceaLungu 4/27/2013 00:41",
+		"initialize" : "MirceaLungu 4/27/2013 00:36",
+		"move ten steps forward" : "MirceaLungu 4/27/2013 00:37" } }

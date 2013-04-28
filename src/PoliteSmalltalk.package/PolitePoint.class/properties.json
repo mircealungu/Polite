@@ -6,13 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"as",
-		"new",
-		"some",
-		"draw",
-		"object" ],
-	"name" : "PSLanguageBoxTest",
+		"x",
+		"y" ],
+	"name" : "PolitePoint",
 	"pools" : [
 		 ],
-	"super" : "LBTestCase",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,6 +1,6 @@
 as yet unclassified
 testUnaryMessage
-	| object string |
-	object := ObjectSample new.
-	string := object as string.
-	self assert: (string =  'an ObjectSample').
+	| kiki health |
+	kiki := PoliteHero new.
+	health := kiki, get health.
+	self assert: (health =  100).
