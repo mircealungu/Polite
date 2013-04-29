@@ -1,3 +1,3 @@
-as yet unclassified
+main productions to replace
 start
-	unaryMessage / unaryMethod
+	^ keywordSentenceMessage / unarySentenceMessage / unarySentenceMethod / keywordSentenceMethod

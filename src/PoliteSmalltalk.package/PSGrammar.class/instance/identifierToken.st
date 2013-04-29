@@ -1,3 +1,3 @@
 as yet unclassified
 identifierToken
-	^ identifier smalltalkToken
+	^ word smalltalkToken

@@ -4,6 +4,9 @@
 		 ],
 	"classvars" : [
 		"IdentifierToken",
+		"KeywordSentenceToken",
+		"SentenceIdentifierToken",
+		"UnarySentenceToken",
 		"UnaryToken" ],
 	"commentStamp" : "",
 	"instvars" : [

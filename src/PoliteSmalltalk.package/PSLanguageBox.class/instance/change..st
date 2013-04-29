@@ -1,14 +1,18 @@
 as yet unclassified
 change: aSmalltalkGrammar
 	
-	| unaryMessageChange identifierChange |
+	| unaryMessageChange identifierChange keywordMessageChange |
 	
 	unaryMessageChange := LBChange new
-		fragment: ((self psGrammarFor: aSmalltalkGrammar) productionAt: #unaryMessage);
+		fragment: ((self psGrammarFor: aSmalltalkGrammar) productionAt: #unarySentenceMessage);
 		before: (aSmalltalkGrammar productionAt: #unaryMessage).
 		
 	identifierChange := LBChange new
-		fragment: ((self psGrammarFor: aSmalltalkGrammar) productionAt: #unaryMethod);
+		fragment: ((self psGrammarFor: aSmalltalkGrammar) productionAt: #unarySentenceMethod);
 		before: (aSmalltalkGrammar productionAt: #unaryMethod).
+		
+	keywordMessageChange := LBChange new
+		fragment: ((self psGrammarFor: aSmalltalkGrammar) productionAt: #keywordSentenceMethod);
+		before: (aSmalltalkGrammar productionAt: #keywordMethod).
 	
-	^ unaryMessageChange, identifierChange.
+	^ unaryMessageChange, identifierChange, keywordMessageChange.

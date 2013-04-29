@@ -1,5 +1,7 @@
 as yet unclassified
-unaryMethod
+sentenceMethod
+
+	"parser for method definition"
 	^ identifierToken ==> [ :node | 
 		Array 
 			with: (Array with: node)

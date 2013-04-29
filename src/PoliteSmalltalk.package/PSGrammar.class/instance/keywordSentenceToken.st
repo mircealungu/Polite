@@ -1,0 +1,3 @@
+as yet unclassified
+keywordSentenceToken
+	^keywordSentence smalltalkToken

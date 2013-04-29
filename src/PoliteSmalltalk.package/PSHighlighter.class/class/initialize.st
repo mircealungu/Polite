@@ -1,4 +1,5 @@
 as yet unclassified
 initialize
-	UnaryToken := Color magenta.
-	IdentifierToken := Color magenta muchDarker.
+	UnarySentenceToken := Color magenta.
+	SentenceIdentifierToken := Color magenta muchDarker.
+	KeywordSentenceToken := Color green muchDarker.

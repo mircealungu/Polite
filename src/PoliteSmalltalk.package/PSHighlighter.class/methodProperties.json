@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"concern" : "JK 4/10/2013 11:26",
-		"initialize" : "JK 4/11/2013 16:34" },
+		"initialize" : "MirceaLungu 4/29/2013 16:36" },
 	"instance" : {
-		"identifierToken" : "JK 4/11/2013 16:34",
-		"unaryToken" : "JK 4/11/2013 15:53" } }
+		"keywordSentenceToken" : "MirceaLungu 4/29/2013 16:36",
+		"sentenceIdentifierToken" : "MirceaLungu 4/29/2013 16:20",
+		"unarySentenceToken" : "MirceaLungu 4/29/2013 16:19" } }
