@@ -1,3 +1,3 @@
 as yet unclassified
 unary
-	^ word trim plus, $: asParser not
+	^ word, (#space asParser, word) star, $: asParser not

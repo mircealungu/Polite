@@ -1,3 +1,0 @@
-accessing
-get x
-	^ x
