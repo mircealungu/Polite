@@ -15,8 +15,8 @@ Thus, a snippet which in a popular programming language would be written as:
 
 is written in Polite like:
 
-    super hero := Superhero, named: 'Ironman'.
-    super hero, beat the hell out of: (the bad guy) and save: (the lady). 
+    superhero := Superhero, named: 'Ironman'.
+    superhero, beat the hell out of: (the bad guy) and save: (the lady). 
 
 See more at: http://scg.unibe.ch/research/Polite
 
