@@ -8,13 +8,13 @@ denotes an action, which is best expressed as a sentence not as a terribly long 
 
 Thus, a snippet which in a popular programming language would be written as: 
 
-  superHero = new SuperHero('Superman');
-  superHero.beatTheHellOutOfAndSaveThe(theBadGuy, theLady)
+    superHero = new SuperHero('Ironman');
+    superHero.beatTheHellOutOfAndSaveThe(theBadGuy, theLady)
 
 is written in Polite like:
 
-  super hero := Super Hero, named: 'Superman'.
-  super hero, beat the hell out of: (the bad guy) and save: (the lady). 
+    super hero := Superhero, named: 'Ironman'.
+    super hero, beat the hell out of: (the bad guy) and save: (the lady). 
 
 See more at: http://scg.unibe.ch/research/Polite
 
