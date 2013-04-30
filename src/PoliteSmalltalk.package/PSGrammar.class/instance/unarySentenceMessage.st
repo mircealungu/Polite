@@ -1,4 +1,4 @@
-main productions to replace
+as yet unclassified
 unarySentenceMessage
 
 	"parser for message send"

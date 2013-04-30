@@ -1,4 +1,4 @@
-main productions to replace
+as yet unclassified
 keywordSentenceMethod
 
 	"parser for method definition"

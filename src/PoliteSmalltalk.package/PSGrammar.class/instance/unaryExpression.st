@@ -1,3 +1,3 @@
-as yet unclassified
+grammar-messages
 unaryExpression
-	^ primary , unaryMessage star
+	^ primary , (unaryMessage / unarySentenceMessage ) star

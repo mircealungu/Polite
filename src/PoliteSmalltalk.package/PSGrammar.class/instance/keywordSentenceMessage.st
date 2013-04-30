@@ -1,6 +1,7 @@
-main productions to replace
+as yet unclassified
 keywordSentenceMessage
-	^ (keywordSentenceToken , binaryExpression) plus ==> [ :nodes | 
-		Array 
-			with: (nodes collect: [ :each | each first ])
-			with: (nodes collect: [ :each | each second ]) ]
+	^ $, asParser,  
+		((keywordSentenceToken, primary) plus ==> [ :nodes |
+			Array 
+				with: (nodes collect: [ :each | each first ])
+				with: (nodes collect: [ :each | each second ]) ]) ==> #second

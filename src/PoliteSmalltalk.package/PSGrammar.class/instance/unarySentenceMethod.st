@@ -1,4 +1,4 @@
-main productions to replace
+as yet unclassified
 unarySentenceMethod
 
 	"parser for method definition"

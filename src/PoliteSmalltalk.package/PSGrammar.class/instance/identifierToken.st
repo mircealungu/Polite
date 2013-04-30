@@ -1,3 +1,3 @@
-as yet unclassified
+grammar-tokens
 identifierToken
 	^ word smalltalkToken

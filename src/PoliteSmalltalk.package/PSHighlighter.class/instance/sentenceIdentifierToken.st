@@ -1,3 +1,3 @@
 as yet unclassified
 sentenceIdentifierToken
-	super sentenceIdentifierToken ==> [:token |" self halt. "token -> SentenceIdentifierToken ]
+	^super sentenceIdentifierToken ==> [:token |" self halt. "token -> SentenceIdentifierToken ]

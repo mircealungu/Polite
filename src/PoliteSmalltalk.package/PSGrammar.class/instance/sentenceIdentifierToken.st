@@ -1,3 +1,3 @@
-as yet unclassified
+grammar-polite
 sentenceIdentifierToken
-	^ sentenceIdentifier smalltalkToken
+	^ sentence smalltalkToken

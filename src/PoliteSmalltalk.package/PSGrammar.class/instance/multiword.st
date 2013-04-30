@@ -1,0 +1,3 @@
+grammar
+multiword
+	^ keyword plus

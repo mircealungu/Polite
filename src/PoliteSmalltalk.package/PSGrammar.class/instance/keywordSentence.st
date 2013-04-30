@@ -1,3 +1,3 @@
 as yet unclassified
 keywordSentence
- 	^sentence , $: asParser
+ 	^sentence, $: asParser
