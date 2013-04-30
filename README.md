@@ -3,7 +3,7 @@ Polite
 
 We are nothing, if not polite. And sice every polite person talks in sentences, Polite is a programming language
 which encourages developers to name their methdos and classes with sentences. Indeed, every method in a class 
-denotes an action, which is best expressed as a sentence not as a terribly long camelcase word 
+denotes an action, which is best expressed as a sentence not as a terribly long camelcase identifier 
 (which might still be preferred by the German people :)
 
 Thus, a snippet which in a popular programming language would be written as: 
