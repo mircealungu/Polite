@@ -20,6 +20,7 @@ See more at: http://scg.unibe.ch/research/Polite
 
 Installation
 ------------
-Clone this repo,
+To get a taste of Polite run these on your Mac OS X, or Linux machine
 
-Then run: ./base-image/get-polite.sh
+    git clone git@github.com:mircealungu/PoliteSmalltalk.git
+    ./base-image/get-polite.sh
