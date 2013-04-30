@@ -1,6 +1,8 @@
 Polite
 ======
 
+(Warning: Polite is a prototype, and work in progress)
+
 We are nothing, if not polite. And sice every polite person talks in sentences, Polite is a programming language
 which encourages developers to name their methdos and classes with sentences. Indeed, every method in a class 
 denotes an action, which is best expressed as a sentence not as a terribly long camelcase identifier 
