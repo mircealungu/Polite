@@ -1,3 +1,4 @@
 accessing
 get position
+	| |
 	^ position
