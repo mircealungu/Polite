@@ -6,6 +6,7 @@
 		"IdentifierToken",
 		"KeywordSentenceToken",
 		"SentenceIdentifierToken",
+		"SentenceVariableToken",
 		"UnarySentenceToken",
 		"UnaryToken" ],
 	"commentStamp" : "",

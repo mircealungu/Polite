@@ -89,7 +89,9 @@
 		"word",
 		"unarySentenceMessage",
 		"keywordSentenceMessage",
-		"multiword" ],
+		"multiword",
+		"sentenceVariable",
+		"sentenceVariableToken" ],
 	"name" : "PSGrammar",
 	"pools" : [
 		 ],
