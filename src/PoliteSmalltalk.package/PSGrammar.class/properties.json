@@ -92,7 +92,11 @@
 		"multiword",
 		"sentenceVariable",
 		"sentenceVariableToken",
-		"temporaryVariables" ],
+		"temporaryVariables",
+		"escapedSentenceVariable",
+		"onlyVariable",
+		"keywordSentenceMessageMultiArg",
+		"keywordSentenceMessageSingleArg" ],
 	"name" : "PSGrammar",
 	"pools" : [
 		 ],

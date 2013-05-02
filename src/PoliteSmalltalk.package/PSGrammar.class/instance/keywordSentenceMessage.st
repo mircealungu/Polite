@@ -1,7 +1,3 @@
 as yet unclassified
 keywordSentenceMessage
-	^ $, asParser,  
-		((keywordSentenceToken, binaryExpression) plus ==> [ :nodes |
-			Array 
-				with: (nodes collect: [ :each | each first ])
-				with: (nodes collect: [ :each | each second ]) ]) ==> #second
+	^ $, asParser, (keywordSentenceMessageMultiArg / keywordSentenceMessageSingleArg) ==> #second
