@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"parserClass" : "JanKurs 5/2/2013 08:59",
+		"testExpression" : "JanKurs 5/2/2013 10:09",
+		"testExpression2" : "JanKurs 5/2/2013 10:22",
+		"testKeywordMessage" : "JanKurs 5/2/2013 10:09",
+		"testKeywordSentenceMessage" : "JanKurs 5/2/2013 09:38",
+		"testKeywordSentenceMessage2" : "JanKurs 5/2/2013 10:13",
+		"testKeywordSentenceMessage3" : "JanKurs 5/2/2013 10:12",
+		"testPrimary" : "JanKurs 5/2/2013 09:19",
+		"testReturn" : "JanKurs 5/2/2013 09:19",
+		"testSentence" : "JanKurs 5/2/2013 09:00",
+		"testSentenceVariableAssignment" : "JanKurs 5/2/2013 09:12",
+		"testStatements" : "JanKurs 5/2/2013 09:34",
+		"testStatements2" : "JanKurs 5/2/2013 09:34",
+		"testStatements3" : "JanKurs 5/2/2013 09:34",
+		"testStatements4" : "JanKurs 5/2/2013 10:09",
+		"testUnaryExpression" : "JanKurs 5/2/2013 09:22",
+		"testUnaryMessage" : "JanKurs 5/2/2013 10:21",
+		"testUnaryMessage2" : "JanKurs 5/2/2013 10:22" } }

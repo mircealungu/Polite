@@ -1,6 +1,6 @@
 grammar-messages
 unaryMessage
-	^ unaryToken ==> [ :node | 
+	^ $, asParser, unaryToken ==> [ :nodes | 
 		Array 
-			with: (Array with: node)
+			with: (Array with: nodes second)
 			with: Array new ]

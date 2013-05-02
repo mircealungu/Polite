@@ -1,3 +1,3 @@
 grammar
 assignment
-	^ variable , assignmentToken
+	^ (sentenceVariable / variable) , assignmentToken

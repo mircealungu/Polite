@@ -1,3 +1,3 @@
 grammar
 primary
-	^ literal / variable / block / parens / array
+	^ literal / sentenceVariable / variable / block / parens / array 

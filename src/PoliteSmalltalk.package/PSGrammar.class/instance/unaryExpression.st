@@ -1,3 +1,3 @@
 grammar-messages
 unaryExpression
-	^ primary , (unaryMessage / unarySentenceMessage ) star
+	^ primary, (unarySentenceMessage) star
