@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testUnarySequence
 	| kiki |
 	kiki := Polite Hero, new.

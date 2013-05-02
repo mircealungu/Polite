@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testKeywordMessage
 	| kiki, experience, newPosition, point, i1, i2 |
 	kiki := Polite Hero, new.

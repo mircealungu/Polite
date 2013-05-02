@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSentenceVariable
 	| kiki hero |
 	kiki hero := Polite Hero, new.

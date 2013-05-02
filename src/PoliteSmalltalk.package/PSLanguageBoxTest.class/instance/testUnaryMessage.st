@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testUnaryMessage
 	| kiki, health |
 	kiki := Polite Hero, new.
