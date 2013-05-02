@@ -1,7 +1,7 @@
-accessing
+as yet unclassified
 testSentenceVariable
 	| kiki hero |
-	kiki hero := PoliteHero, new.
+	kiki hero := Polite Hero, new.
 	
 	kiki hero, set the damn health: 100.
 	self, assert: kiki hero, get health = 100.

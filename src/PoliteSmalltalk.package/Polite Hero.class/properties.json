@@ -9,7 +9,7 @@
 		"position",
 		"health",
 		"experience" ],
-	"name" : "PoliteHero",
+	"name" : "Polite Hero",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -1,7 +1,7 @@
 as yet unclassified
 testUnaryMessage
 	| kiki, health |
-	kiki := PoliteHero, new.
+	kiki := Polite Hero, new.
 	health := kiki, get health.
 	
 	self, assert: (health =  100).

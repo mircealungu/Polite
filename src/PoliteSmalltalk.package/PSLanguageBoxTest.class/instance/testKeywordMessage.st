@@ -1,8 +1,8 @@
 as yet unclassified
 testKeywordMessage
 	| kiki, experience, newPosition, point, i1, i2 |
-	kiki := PoliteHero, new.
-
+	kiki := Polite Hero, new.
+	
 	kiki, increase experience points with: 10.
 	
 

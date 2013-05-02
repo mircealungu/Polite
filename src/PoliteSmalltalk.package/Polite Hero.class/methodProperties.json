@@ -7,11 +7,11 @@
 		"recompile:from:" : "Mirc 4/18/2013 14:24",
 		"securelyCompile:do:" : "Mirc 4/18/2013 14:24" },
 	"instance" : {
-		"get experience" : "JanKurs 5/2/2013 11:52",
+		"get experience" : "JanKurs 5/2/2013 14:29",
 		"get health" : "JanKurs 5/2/2013 09:19",
 		"get position" : "JanKurs 5/1/2013 16:10",
 		"increase experience points with:" : "JanKurs 5/2/2013 11:08",
 		"increase health with twenty percent" : "MirceaLungu 5/1/2013 15:51:09",
-		"initialize" : "MirceaLungu 4/28/2013 13:54",
-		"move ten steps forward" : "MirceaLungu 5/1/2013 15:51:09",
+		"initialize" : "JanKurs 5/2/2013 14:30",
+		"move ten steps forward" : "JanKurs 5/2/2013 14:30",
 		"set the damn health:" : "JanKurs 5/2/2013 11:52" } }

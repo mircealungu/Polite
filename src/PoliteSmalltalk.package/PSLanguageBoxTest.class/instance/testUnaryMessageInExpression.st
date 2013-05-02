@@ -1,7 +1,7 @@
 as yet unclassified
 testUnaryMessageInExpression
 	| kiki  |
-	kiki := PoliteHero, new.
+	kiki := Polite Hero, new.
 	
 	self, assert: ((kiki, get health) =  100).
 	self, assert: (kiki, get health =  100).
