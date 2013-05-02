@@ -3,7 +3,7 @@
 		"languageBoxes" : "Mirc 4/18/2013 14:25" },
 	"instance" : {
 		"testKeywordMessage" : "JanKurs 5/2/2013 12:40",
-		"testMessageSequence" : "MirLungu 5/3/2013 01:08",
+		"testMessageCascade" : "MirLungu 5/3/2013 01:12",
 		"testSentenceVariable" : "JanKurs 5/2/2013 12:40",
 		"testUnaryMessage" : "JanKurs 5/2/2013 12:40",
 		"testUnaryMessageInExpression" : "JanKurs 5/2/2013 12:40",

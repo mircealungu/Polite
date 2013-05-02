@@ -1,5 +1,5 @@
 tests
-testMessageSequence
+testMessageCascade
 	| sir Lancelot, health |
 	
 	sir Lancelot := Polite Hero, new.
