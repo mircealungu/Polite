@@ -10,19 +10,19 @@ denotes an action, which is best expressed as a sentence not as a terribly long 
 
 Thus, a snippet which in a popular programming language would be written as: 
 
-    superHero = new SuperHero('Ironman');
-    superHero.beatTheHellOutOfAndSaveThe(theBadGuy, theLady)
+    kingArthur = new PoliteHero('King Arthur');
+    superHero.beatTheHellOutOfAndSaveThe(theBadGuys, theLady)
 
 is written in Polite like:
 
-    superhero := Superhero, named: 'Ironman'.
-    superhero, beat the hell out of: (the bad guy) and save: (the lady). 
+    king Arthur := Polite Hero, named: 'King Arthur'.
+    king Arthur, beat the hell out of: (the bad guys) and save: (the lady). 
 
 See more at: http://scg.unibe.ch/research/Polite
 
 Installation
 ------------
-To get a taste of Polite run these in your OS X terminal, or Linux console:
+To get a taste of Polite run in your OS X terminal, or Linux console:
 
     git clone git@github.com:mircealungu/PoliteSmalltalk.git
     ./base-image/get-polite.sh
