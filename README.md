@@ -18,6 +18,9 @@ is written in Polite like:
     king Arthur := Polite Hero, named: 'King Arthur'.
     king Arthur, beat the hell out of: (the bad guys) and save: (the lady). 
 
+There is one other important things about Polite: it is built on top of Smalltalk so all the power, and meta-power of 
+that language is available.
+
 See more at: http://scg.unibe.ch/research/Polite
 
 Installation
