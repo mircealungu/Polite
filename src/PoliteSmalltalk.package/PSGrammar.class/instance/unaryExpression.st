@@ -1,3 +1,3 @@
 grammar-messages
 unaryExpression
-	^ primary, (unarySentenceMessage) star
+	^ primary, ($, asParser, (unarySentenceMessage) ==> #second) star

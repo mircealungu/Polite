@@ -1,3 +1,3 @@
 grammar
 message
-	^ keywordMessage / binaryMessage / unaryMessage
+	^ keywordSentenceMessage / "keywordMessage / " binaryMessage / "unaryMessage" unarySentenceMessage

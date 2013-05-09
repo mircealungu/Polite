@@ -1,3 +1,3 @@
 tests
 testStatements2
-	^ self parse: 'PoliteHero, new.' rule: #statements
+	^ self parse: 'Polite Hero, new.' rule: #statements

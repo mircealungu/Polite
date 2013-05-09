@@ -2,7 +2,7 @@ as yet unclassified
 unarySentenceMessage
 
 	"parser for message send"
-	^ $, asParser, unarySentenceToken ==> [:nodes | "self halt."
+	^ unarySentenceToken ==> [:node | 
 		Array 
-			with: (Array with: nodes second) 
+			with: (Array with: node ) 
 			with: Array new ]
