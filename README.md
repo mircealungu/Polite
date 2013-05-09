@@ -1,7 +1,8 @@
 Polite
 ======
 
-"We are nothing, if not polite." (Don Ysidro, B.H. Rogers)
+"We are nothing, if not polite." 
+(Don Ysidro, B.H. Rogers)
 
 Since every polite person talks in sentences, Polite is a programming language
 which encourages developers to name their methdos and classes with sentences. Indeed, every method in a class 
