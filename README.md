@@ -1,7 +1,7 @@
 Polite
 ======
 
-"We are nothing, if not polite." 
+"We are nothing if not polite." 
 (Don Ysidro, B.H. Rogers)
 
 Since every polite person talks in sentences, Polite is a programming language
