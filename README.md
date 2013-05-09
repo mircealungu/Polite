@@ -19,7 +19,7 @@ is written in Polite like:
     king Arthur := Polite Hero, named: 'King Arthur'.
     king Arthur, beat the hell out of: (the bad guys) and save: (the lady). 
 
-This in our opinion will encourage people to write nicer and more readable code. And since we spend much more time reading existing code than writing new code, this might make everybody happier in the long run. 
+In our opinion a syntax like the one of Polite will encourage people to write nicer and more readable code. And since we spend much more time reading existing code than writing new code, this might make everybody happier in the long run. 
 
 Finally, Polite is a modified Smalltalk; so all the power, and meta-power of that language is available to the Polite programmer. 
 
