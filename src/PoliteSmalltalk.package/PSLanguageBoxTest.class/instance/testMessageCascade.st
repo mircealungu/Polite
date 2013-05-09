@@ -1,10 +1,12 @@
 tests
 testMessageCascade
-	| sir Lancelot, health |
+	| sir Lancelot, his health |
 	
 	sir Lancelot := Polite Hero, new.
 	
-	"uncomment next line to get failing test"
-	"health := sir Lancelot, get health; get health."
+	his health := sir Lancelot, 
+		get experience; 
+		set health: 10;
+		get health.
 	
-	self, assert: false.
+	self, assert: (his health = 10).

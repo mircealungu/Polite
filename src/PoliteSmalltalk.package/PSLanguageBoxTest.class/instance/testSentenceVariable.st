@@ -1,7 +1,7 @@
 tests
 testSentenceVariable
-	| kiki hero |
-	kiki hero := Polite Hero, new.
+	| king Arthur |
+	king Arthur := Polite Hero, new.
 	
-	kiki hero, set the damn health: 100.
-	self, assert: kiki hero, get health = 100.
+	king Arthur, set the damn health: 100.
+	self, assert: king Arthur, get health = 100.

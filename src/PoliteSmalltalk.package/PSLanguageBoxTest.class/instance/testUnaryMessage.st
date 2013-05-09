@@ -1,7 +1,7 @@
 tests
 testUnaryMessage
-	| kiki, health |
-	kiki := Polite Hero, new.
-	health := kiki, get health.
+	| frodo, health |
+	frodo := Polite Hero, new.
+	health := frodo, get health.
 	
 	self, assert: (health =  100).
