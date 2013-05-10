@@ -5,7 +5,7 @@ Polite
 (Don Ysidro, B.H. Rogers)
 
 Since every polite person talks in sentences, Polite is a programming language
-which encourages developers to name their method names and class names with sentences. Indeed, every method in a class 
+which encourages developers to name their method names in the most natural manner. Indeed, every method in a class 
 denotes an action, which is best expressed as a sentence not as a terribly long camelcase identifier 
  (which might still be preferred by the germanic people). 
 
