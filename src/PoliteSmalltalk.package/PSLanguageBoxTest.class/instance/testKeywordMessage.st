@@ -4,7 +4,6 @@ testKeywordMessage
 	William Tell := Polite Hero, new.
 	
 	William Tell, increase experience points with: 10.
-	
 
 	self, assert: (11 = William Tell, get experience).
 	self, assert: (William Tell, get experience = 11).

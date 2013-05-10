@@ -1,8 +1,8 @@
 tests
 testInvertedMessage
 	| Iron Man |
-	Iron Man := Polite Hero, new.
-	"or it can also be written as..."
+
+	"inverted message used for method creation..."
 	Iron Man := new: Polite Hero.
 	
 	self, assert: (Iron Man, isKindOf: Polite Hero).
