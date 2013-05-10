@@ -1,3 +1,3 @@
 grammar-messages
 binaryExpression
-	^ unaryExpression , binaryMessage star
+	^ (invertedUnaryExpression / unaryExpression) , binaryMessage star

@@ -1,8 +1,6 @@
-as yet unclassified
+grammar-methods
 unarySentenceMethod
-
-	"parser for method definition"
-	^ sentenceIdentifierToken ==> [ :node | 
+	^ (sentenceIdentifierToken "/ identifierToken" ) ==> [ :node | 
 		Array 
 			with: (Array with: node)
 			with: Array new ]

@@ -1,6 +1,6 @@
 grammar-messages
 binaryMessage
-	^ (binaryToken , unaryExpression) ==> [ :nodes | 
+	^ (binaryToken , (invertedUnaryExpression / unaryExpression)) ==> [ :nodes | 
 		Array 
 			with: (Array with: nodes first)
 			with: (Array with: nodes second) ]

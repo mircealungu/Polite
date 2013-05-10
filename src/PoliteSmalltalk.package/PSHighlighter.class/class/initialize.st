@@ -7,3 +7,4 @@ initialize
 	SentenceIdentifierToken := Color magenta muchDarker.
 	KeywordSentenceToken := Color green muchDarker.
 	SentenceVariableToken := Color brown.
+	InvertedUnaryMessageToken := Color magenta muchDarker muchDarker.

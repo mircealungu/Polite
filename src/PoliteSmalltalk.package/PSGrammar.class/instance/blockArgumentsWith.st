@@ -1,3 +1,5 @@
 grammar-blocks
 blockArgumentsWith
-	^ blockArgument plus , ($| asParser smalltalkToken / ($] asParser smalltalkToken and ==> [ :node | nil ]))
+	^ 
+	(blockArgument, blockArgument star) ==> [:nodes | (OrderedCollection with: nodes first) addAll: nodes second; yourself], 
+	($| asParser smalltalkToken / ($] asParser smalltalkToken and ==> [ :node | nil ]))

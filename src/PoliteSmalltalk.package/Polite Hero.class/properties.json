@@ -8,9 +8,10 @@
 	"instvars" : [
 		"position",
 		"health",
-		"experience" ],
+		"experience",
+		"companions" ],
 	"name" : "Polite Hero",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PoliteClass",
 	"type" : "normal" }

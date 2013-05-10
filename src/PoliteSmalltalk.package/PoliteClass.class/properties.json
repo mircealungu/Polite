@@ -1,0 +1,14 @@
+{
+	"category" : "PoliteSmalltalk-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PoliteClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

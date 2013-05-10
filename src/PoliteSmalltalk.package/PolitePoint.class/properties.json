@@ -11,5 +11,5 @@
 	"name" : "PolitePoint",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PoliteClass",
 	"type" : "normal" }

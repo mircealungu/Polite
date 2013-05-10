@@ -1,18 +1,13 @@
 {
 	"class" : {
-		"compile:classified:withStamp:notifying:logSource:" : "",
-		"languageBoxes" : "",
-		"languageBoxesHighlight" : "",
-		"languageBoxesParser" : "",
-		"recompile:from:" : "",
-		"securelyCompile:do:" : "" },
+		 },
 	"instance" : {
-		"get experience" : "MirLungu 5/3/2013 01:12:34",
-		"get health" : "MirLungu 5/3/2013 01:12:34",
-		"get position" : "MirLungu 5/3/2013 01:12:34",
-		"increase experience points with:" : "MirLungu 5/3/2013 01:12:34",
-		"increase health with twenty percent" : "MirLungu 5/3/2013 01:12:34",
-		"initialize" : "JanKurs 5/2/2013 14:30",
-		"move ten steps forward" : "MirLungu 5/3/2013 01:12:34",
-		"set health:" : "MirLu 5/10/2013 16:24",
-		"set the damn health:" : "MirLungu 5/3/2013 01:12:34" } }
+		"get experience" : "MirLu 5/10/2013 16:46:12",
+		"get health" : "JanKurs 5/10/2013 21:23",
+		"get position" : "MirLu 5/10/2013 16:46:12",
+		"increase experience points with:" : "MirLu 5/10/2013 16:46:12",
+		"increase health with twenty percent" : "MirLu 5/10/2013 16:46:12",
+		"initialize" : "JanKurs 5/10/2013 21:30",
+		"move ten steps forward" : "JanKurs 5/10/2013 21:23",
+		"set health:" : "MirLu 5/10/2013 16:46:12",
+		"set the damn health:" : "MirLu 5/10/2013 16:46:12" } }

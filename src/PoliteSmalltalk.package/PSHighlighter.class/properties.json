@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"IdentifierToken",
+		"InvertedUnaryMessageToken",
 		"KeywordSentenceToken",
 		"SentenceIdentifierToken",
 		"SentenceVariableToken",

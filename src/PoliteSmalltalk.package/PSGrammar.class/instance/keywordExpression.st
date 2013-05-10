@@ -1,3 +1,3 @@
 grammar-messages
 keywordExpression
-	^ binaryExpression , ($, asParser, (keywordSentenceMessage / keywordMessage) ==> #second) optional 
+	^ binaryExpression , ($, asParser, (keywordSentenceMessage) ==> #second) optional 

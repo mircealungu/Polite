@@ -1,3 +1,3 @@
 grammar-blocks
 blockArgument
-	^ $: asParser smalltalkToken , variable
+	^ $: asParser smalltalkToken , sentenceVariable
