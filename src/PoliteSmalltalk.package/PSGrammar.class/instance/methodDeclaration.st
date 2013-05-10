@@ -1,3 +1,3 @@
 grammar
 methodDeclaration
-	^ keywordMethod / unaryMethod / binaryMethod
+	^ keywordSentenceMethod / unaryMethod / binaryMethod

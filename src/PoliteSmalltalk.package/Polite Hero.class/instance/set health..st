@@ -1,5 +1,4 @@
 accessing
-set health: aNumber
-
-	health := aNumber.
+set health: a number
+	health := a number.
 	

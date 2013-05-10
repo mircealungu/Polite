@@ -89,6 +89,7 @@
 		"word",
 		"unarySentenceMessage",
 		"keywordSentenceMessage",
+		"keywordSentenceMethod",
 		"multiword",
 		"sentenceVariable",
 		"sentenceVariableToken",
@@ -96,7 +97,9 @@
 		"escapedSentenceVariable",
 		"onlyVariable",
 		"keywordSentenceMessageMultiArg",
-		"keywordSentenceMessageSingleArg" ],
+		"keywordSentenceMessageSingleArg",
+		"keywordSentenceMethodMultiArg",
+		"keywordSentenceMethodSingleArg" ],
 	"name" : "PSGrammar",
 	"pools" : [
 		 ],

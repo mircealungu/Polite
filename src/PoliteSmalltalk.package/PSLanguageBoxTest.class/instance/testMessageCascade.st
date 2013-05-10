@@ -9,4 +9,5 @@ testMessageCascade
 		set health: 10;
 		get health.
 	
+
 	self, assert: (his health = 10).
