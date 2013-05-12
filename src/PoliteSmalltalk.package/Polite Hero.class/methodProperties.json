@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"get experience" : "MirLu 5/10/2013 16:46:12",
-		"get health" : "JanKurs 5/10/2013 21:23",
-		"get position" : "MirLu 5/10/2013 16:46:12",
-		"increase experience points with:" : "MirLu 5/10/2013 16:46:12",
-		"increase health with twenty percent" : "JanKurs 5/10/2013 23:23",
+		"get experience" : "JanKurs 5/10/2013 23:29:10",
+		"get health" : "JanKurs 5/10/2013 23:29:10",
+		"get position" : "JanKurs 5/10/2013 23:29:10",
+		"increase experience points with:" : "JanKurs 5/10/2013 23:29:10",
+		"increase health with twenty percent" : "JanKurs 5/10/2013 23:29:10",
 		"initialize" : "JanKurs 5/10/2013 21:30",
-		"move ten steps forward" : "JanKurs 5/10/2013 21:23",
-		"set health:" : "MirLu 5/10/2013 16:46:12",
-		"set the damn health:" : "MirLu 5/10/2013 16:46:12" } }
+		"move ten steps forward" : "JanKurs 5/10/2013 23:29:10",
+		"set health:" : "JanKurs 5/10/2013 23:29:10",
+		"set the damn health:" : "JanKurs 5/10/2013 23:29:10" } }
