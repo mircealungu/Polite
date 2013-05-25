@@ -1,5 +1,6 @@
 {
 	"class" : {
-		 },
+		"ARandomBunchOf" : "MirLu 5/23/2013 22:49" },
 	"instance" : {
-		"move ten steps forward" : "MirLu 5/12/2013 19:03" } }
+		"initialize" : "MirLu 5/23/2013 23:14",
+		"move ten steps forward" : "MirLu 5/12/2013 19:09:59" } }

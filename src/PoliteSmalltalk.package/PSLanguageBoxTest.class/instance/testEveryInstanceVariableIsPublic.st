@@ -4,5 +4,5 @@ testEveryInstanceVariableIsPublic
 	Iron Man := Polite Hero, new.
 	Jarvis := Polite Hero, new.
 	
-	Iron Man, get companions, add: Jarvis.
+	Iron Man, add companion: Jarvis.
 	self, assert: (Iron Man, get companions, size = 1).

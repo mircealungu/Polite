@@ -1,13 +1,13 @@
 {
-	"category" : "PoliteSmalltalk-Tests",
+	"category" : "PoliteSmalltalk-Applications",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"z" ],
-	"name" : "PSLanguageBoxTest",
+		 ],
+	"name" : "PomodoroTest",
 	"pools" : [
 		 ],
 	"super" : "LBTestCase",

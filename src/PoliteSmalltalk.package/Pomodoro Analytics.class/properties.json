@@ -1,14 +1,15 @@
 {
-	"category" : "PoliteSmalltalk-Tests",
+	"category" : "PoliteSmalltalk-Applications",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"health" ],
-	"name" : "Thief",
+		"contents",
+		"tags",
+		"sorted" ],
+	"name" : "Pomodoro Analytics",
 	"pools" : [
 		 ],
 	"super" : "PoliteClass",

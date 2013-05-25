@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"create sorted list of tags" : "MirLu 5/24/2013 00:59",
+		"extract tag dictionary from contents" : "MirLu 5/24/2013 01:13",
+		"initialize" : "MirLu 5/24/2013 00:27",
+		"print on Transcript" : "MirLu 5/24/2013 00:56",
+		"read contents from the disk" : "MirLu 5/24/2013 00:17",
+		"visualize tags" : "MirLu 5/24/2013 00:59" } }

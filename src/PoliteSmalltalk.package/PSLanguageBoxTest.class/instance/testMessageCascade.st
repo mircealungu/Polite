@@ -2,7 +2,7 @@ tests
 testMessageCascade
 	| sir Lancelot, his health |
 	
-	sir Lancelot := Polite Hero, new.
+	sir Lancelot := new: Polite Hero.
 	
 	his health := sir Lancelot, 
 		get experience; 

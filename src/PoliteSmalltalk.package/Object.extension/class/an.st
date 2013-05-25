@@ -1,0 +1,3 @@
+*politesmalltalk
+an
+	^self new
