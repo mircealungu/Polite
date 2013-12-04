@@ -1,5 +1,5 @@
-private
+accessing
 read contents from the disk
 	| file |
-	file := File Stream, read only file named: '/Users/mircea/Dropbox/logs/pomodoros.txt'.
+	file := FileStream, read only file named: '/Users/mircealungu/Dropbox/Apps/PomodoroBox/box.txt'.
 	contents := file, contents.

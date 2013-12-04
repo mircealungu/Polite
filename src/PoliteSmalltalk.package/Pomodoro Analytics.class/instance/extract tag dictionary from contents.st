@@ -7,6 +7,6 @@ extract tag dictionary from contents
 		results := rs, next line, split on: $,.
 		tag := results, third.
 		description := results, second.
-		tags, at: (tag) if absent put: [an: Ordered Collection].
+		tags, at: (tag) if absent put: [OrderedCollection, new].
 		(tags, at: (tag)), add: description.
 	].
