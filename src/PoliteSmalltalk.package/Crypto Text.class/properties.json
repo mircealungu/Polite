@@ -1,0 +1,15 @@
+{
+	"category" : "PoliteSmalltalk-Crypto",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"raw",
+		"text" ],
+	"name" : "Crypto Text",
+	"pools" : [
+		 ],
+	"super" : "PoliteClass",
+	"type" : "normal" }

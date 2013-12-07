@@ -1,0 +1,16 @@
+{
+	"category" : "PoliteSmalltalk-Crypto",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dkey",
+		"lkey",
+		"digitskey" ],
+	"name" : "Monome Dynome",
+	"pools" : [
+		 ],
+	"super" : "PoliteClass",
+	"type" : "normal" }

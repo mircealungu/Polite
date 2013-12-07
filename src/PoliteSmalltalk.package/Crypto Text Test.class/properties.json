@@ -1,0 +1,14 @@
+{
+	"category" : "PoliteSmalltalk-Crypto",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Crypto Text Test",
+	"pools" : [
+		 ],
+	"super" : "LBTestCase",
+	"type" : "normal" }
