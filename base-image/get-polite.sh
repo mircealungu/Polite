@@ -8,6 +8,8 @@ mv Polite.app/Contents/Resources/Helvetia.image Polite.app/Contents/Resources/Po
 mv Polite.app/Contents/Resources/Helvetia.changes Polite.app/Contents/Resources/Polite.changes
 cp ../materials/PoliteBowB.icns Polite.app/Contents/Resources/Squeak.icns
 
+cat Polite.app/Contents/Info.plist | sed s/Helvetia/Polite/g > Polite.app/Contents/Info.plist
+
 
 if [[ `uname -s` == "Linux" ]]; then
 	echo "Linux detected..."
