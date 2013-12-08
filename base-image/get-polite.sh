@@ -4,13 +4,16 @@ wget http://hudson.lukas-renggli.ch/job/Helvetia/lastSuccessfulBuild/artifact/He
 unzip Helvetia-OneClick.zip
 rm -rf Helvetia-OneClick.zip
 mv Helvetia.app Polite.app
+mv Polite.app/Contents/Resources/Helvetia.image Polite.app/Contents/Resources/Polite.image
+mv Polite.app/Contents/Resources/Helvetia.changes Polite.app/Contents/Resources/Polite.changes
 cp ../materials/PoliteBowB.icns Polite.app/Contents/Resources/Squeak.icns
+
 
 if [[ `uname -s` == "Linux" ]]; then
 	echo "Linux detected..."
-	./Polite.app/Contents/Linux/squeak ./Polite.app/Contents/Resources/Helvetia.image `pwd`/prepareImage.st 
+	./Polite.app/Contents/Linux/squeak ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st 
 else
 	echo "OS X detected..."
-	./Polite.app/Contents/MacOS/Squeak\ VM\ Opt ./Polite.app/Contents/Resources/Helvetia.image `pwd`/prepareImage.st 
+	./Polite.app/Contents/MacOS/Squeak\ VM\ Opt ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st 
 fi
 
