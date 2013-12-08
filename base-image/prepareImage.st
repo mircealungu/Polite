@@ -24,4 +24,6 @@ OBCodeBrowser  mercuryPanelEnabled: true.
 Gofer new
 	repository: (MCFileTreeRepository new directory: (FileDirectory on: FileDirectory default containingDirectory containingDirectory containingDirectory containingDirectory pathName, '/src'));
 	package: 'PoliteSmalltalk';
-	load
+	load.
+
+PSGrammarTests browse
