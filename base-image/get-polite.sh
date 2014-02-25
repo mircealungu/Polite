@@ -12,10 +12,12 @@ cat Polite.app/Contents/Info.plist | sed s/Helvetia/Polite/g > tmp.plist
 mv tmp.plist Polite.app/Contents/Info.plist
 
 
-if [[ `uname -s` == "Linux" ]]; then
+if [[ `uname -s` == "Linux" ]] 
+then
 	echo "Linux detected..."
 	./Polite.app/Contents/Linux/squeak ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st 
-else if [[ `uname-s` == *WIN* ]]; then
+elif [[ `uname -s` == *WIN* ]] 
+then
 	echo "Windows detected..."
 	./Polite.app/Contents/Windows/Squeak.exe ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st
 else
