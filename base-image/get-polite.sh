@@ -15,9 +15,9 @@ mv tmp.plist Polite.app/Contents/Info.plist
 if [[ `uname -s` == "Linux" ]]; then
 	echo "Linux detected..."
 	./Polite.app/Contents/Linux/squeak ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st 
-else if [[ `uname-s` == *WIN*]]; then
-    echo "Windows detected..."
-    ./Polite.app/Contents/Windows/Squeak.exe ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st
+else if [[ `uname-s` == *WIN* ]]; then
+	echo "Windows detected..."
+	./Polite.app/Contents/Windows/Squeak.exe ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st
 else
 	echo "OS X detected..."
 	./Polite.app/Contents/MacOS/Squeak\ VM\ Opt ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st 
