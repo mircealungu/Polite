@@ -16,7 +16,7 @@ if [[ `uname -s` == "Linux" ]]
 then
 	echo "Linux detected..."
 	./Polite.app/Contents/Linux/squeak ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st 
-elif [[ `uname -s` == *WIN* ]] 
+elif [[ `uname -s` == *NT* ]] 
 then
 	echo "Windows detected..."
 	./Polite.app/Contents/Windows/Squeak.exe ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st
