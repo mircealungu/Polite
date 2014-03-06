@@ -1,4 +1,4 @@
 accessing
-extract words from: normalized
-	^(normalized, find tokens: ' '),
+extract words from: text
+	^(text, find tokens: ' '),
 		reject: [:word| word, size = 1]

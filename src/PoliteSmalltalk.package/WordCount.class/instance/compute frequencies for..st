@@ -1,7 +1,7 @@
 accessing
-compute frequencies for: filtered words
+compute frequencies for: words
 	| words bag |
-	
+	"Bags: wonderful collection objects that count instances"
 	words bag := new: Bag.
-	filtered words, do: [:each | words bag, add: each.].
+	words, do: [:word | words bag, add: word.].
 	^words bag, sorted counts

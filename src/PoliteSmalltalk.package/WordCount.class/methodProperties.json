@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"compute frequencies for:" : "MirLu 3/6/2014 16:46",
-		"extract words from:" : "MirLu 3/6/2014 16:51",
-		"filter non alpha and convert to lowercase:" : "MirLu 3/6/2014 16:46",
-		"get text from:" : "MirLu 3/6/2014 16:50",
-		"process:" : "MirLu 3/6/2014 16:49",
-		"remove stop words from:" : "MirLu 3/6/2014 16:48" } }
+		"compute frequencies for:" : "MirLu 3/6/2014 18:26",
+		"extract words from:" : "MirLu 3/6/2014 18:14",
+		"filter non alpha and convert to lowercase:" : "MirLu 3/6/2014 17:59",
+		"process:" : "MirLu 3/6/2014 17:05",
+		"read text from:" : "MirLu 3/6/2014 17:05",
+		"remove stop words from:" : "MirLu 3/6/2014 16:52:04" } }
