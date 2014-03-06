@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"get text from:" : "MirLu 3/6/2014 15:57",
-		"normalize:" : "MirLu 3/6/2014 15:58",
-		"process:" : "MirLu 3/6/2014 15:55" } }
+		"compute frequencies for:" : "MirLu 3/6/2014 16:46",
+		"extract words from:" : "MirLu 3/6/2014 16:51",
+		"filter non alpha and convert to lowercase:" : "MirLu 3/6/2014 16:46",
+		"get text from:" : "MirLu 3/6/2014 16:50",
+		"process:" : "MirLu 3/6/2014 16:49",
+		"remove stop words from:" : "MirLu 3/6/2014 16:48" } }
