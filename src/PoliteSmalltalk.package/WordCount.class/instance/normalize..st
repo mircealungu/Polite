@@ -1,7 +1,7 @@
 accessing
 normalize: text
 	^text, collect: [:each| 
-			each, isLetter, 
-				ifTrue: [each, asLowercase]
-				ifFalse: [Character, space]. 
+			each, is letter, 
+				if true: [each, as lowercase]
+				if false: [Character, space]. 
 		]

@@ -1,11 +1,13 @@
 accessing
 process: file name
-	| text, normalized, words, counts |
+	| text, normalized, words, words bag |
+	
 	text := self, get text from: file name.
 	normalized := self, normalize: text.
 	words := normalized, find tokens: ' '.
-	counts := Bag, new.
+
+	words bag := new: Bag.
 	words, do: [:each | 
-			counts, add: each.
+			words bag, add: each.
 			].
-	^counts
+	^words bag, sorted counts
