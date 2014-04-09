@@ -25,3 +25,4 @@ else
 	./Polite.app/Contents/MacOS/Squeak\ VM\ Opt ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st 
 fi
 
+ln -s ./Polite.app/Contents/Resources/ ../default-path
