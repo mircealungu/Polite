@@ -1,7 +1,6 @@
 accessing
 print most frequently used: count
-	| freqs |
+	| freqs, top words |
 	freqs := Bag, new from: words.
-	(freqs, sorted counts, get first: count), do: [:word|
-		Transcript, show: word; cr.
-	].
+	top words := (freqs, sorted counts, get first: count).
+	top words, do: [:word| Transcript, show: word; cr.].
