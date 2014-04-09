@@ -11,6 +11,8 @@ cp ../materials/PoliteBowB.icns Polite.app/Contents/Resources/Squeak.icns
 cat Polite.app/Contents/Info.plist | sed s/Helvetia/Polite/g > tmp.plist
 mv tmp.plist Polite.app/Contents/Info.plist
 
+(cd ..; ln -s ./base-image/Polite.app/Contents/Resources/ default-path)
+
 
 if [[ `uname -s` == "Linux" ]] 
 then
@@ -25,4 +27,3 @@ else
 	./Polite.app/Contents/MacOS/Squeak\ VM\ Opt ./Polite.app/Contents/Resources/Polite.image `pwd`/prepareImage.st 
 fi
 
-ln -s ./Polite.app/Contents/Resources/ ../default-path
