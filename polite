@@ -1,0 +1,2 @@
+#!/bin/bash
+(cd base-image; ./start.sh $1)
