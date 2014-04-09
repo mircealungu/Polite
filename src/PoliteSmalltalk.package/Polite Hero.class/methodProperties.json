@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"add companion:" : "MirLu 3/6/2014 18:26:39",
+		"add companion:" : "MirLu 4/9/2014 20:20:04",
 		"attack:" : "MirLu 5/23/2013 23:14",
-		"get position" : "MirLu 3/6/2014 18:26:39",
-		"increase health with twenty percent" : "MirLu 3/6/2014 18:26:39",
+		"augment experience points with:" : "MirLu 4/9/2014 21:29",
+		"get position" : "MirLu 4/9/2014 20:20:04",
+		"increase health with twenty percent" : "MirLu 4/9/2014 20:20:04",
 		"initialize" : "JanKurs 5/10/2013 21:30",
-		"move ten steps forward" : "MirLu 3/6/2014 18:26:39",
-		"set the damn health:" : "MirLu 3/6/2014 18:26:39" } }
+		"move ten steps forward" : "MirLu 4/9/2014 20:20:04",
+		"set health:" : "MirLu 4/9/2014 21:30" } }
