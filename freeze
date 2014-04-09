@@ -1,12 +1,14 @@
 #!/bin/bash
 # Normally the system should be on freeze, to make sure that 
 # one does alwyas have a base running system
-if [[ $1 == "on" ]]
-	then
-	echo chmod u-w /base-image/Polite.app/Contents/Resources/Polite.*
-fi
 
 if [[ $1 == "off" ]]
 	then
-	echo chmod u+w /base-image/Polite.app/Contents/Resources/Polite.*
+	echo Unfrozen: .image and .change files
+	chmod u+w ./base-image/Polite.app/Contents/Resources/Polite.*
+else
+	echo Frozen: .image and .change files
+	chmod u-w ./base-image/Polite.app/Contents/Resources/Polite.*
+	
+
 fi
