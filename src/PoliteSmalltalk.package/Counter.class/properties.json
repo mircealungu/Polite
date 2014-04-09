@@ -1,0 +1,14 @@
+{
+	"category" : "PoliteSmalltalk-WordCount",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Counter",
+	"pools" : [
+		 ],
+	"super" : "PoliteClass",
+	"type" : "normal" }

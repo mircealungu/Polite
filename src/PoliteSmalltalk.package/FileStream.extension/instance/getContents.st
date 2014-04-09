@@ -1,0 +1,3 @@
+*politesmalltalk
+getContents
+	^self contents

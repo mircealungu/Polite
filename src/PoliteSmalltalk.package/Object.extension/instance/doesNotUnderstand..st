@@ -12,12 +12,19 @@ doesNotUnderstand: aMessage
 
 
 	"The amazing converter code!"
+	"a few inlines, for faster recognition"
+	(aMessage selector =#'if true:if false:') ifTrue: [
+			^self perform: #'ifTrue:ifFalse:' withArguments: (aMessage arguments)
+		].
+	(aMessage selector =#'is letter') ifTrue: [
+			^self perform: #'isLetter' withArguments: (aMessage arguments)
+		].	
 	
-
-		cc := self spaceToCamelcase: aMessage.
-		(self class canPerform: cc) ifTrue: [
-				 ^self perform: cc withArguments: (aMessage arguments)
-			].
+	cc := self spaceToCamelcase: aMessage.
+	(self class canPerform: cc)
+		ifTrue: [
+			 ^self perform: cc withArguments: (aMessage arguments)
+		].
 
 	(exception := MessageNotUnderstood new)
 		message: aMessage;

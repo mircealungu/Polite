@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"convert to lowercase" : "",
+		"get words from:" : "",
+		"read text from:" : "",
+		"replace all non alpha chars with spaces" : "" } }

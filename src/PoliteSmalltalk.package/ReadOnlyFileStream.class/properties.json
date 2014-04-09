@@ -1,0 +1,14 @@
+{
+	"category" : "PoliteSmalltalk-ReadabilityExtensions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ReadOnlyFileStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

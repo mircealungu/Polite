@@ -1,0 +1,15 @@
+{
+	"category" : "PoliteSmalltalk-WordCount",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"words",
+		"frequencies" ],
+	"name" : "List of Words",
+	"pools" : [
+		 ],
+	"super" : "PoliteClass",
+	"type" : "normal" }

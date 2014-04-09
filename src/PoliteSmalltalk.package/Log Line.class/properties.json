@@ -1,13 +1,14 @@
 {
-	"category" : "PoliteSmalltalk-WordCount",
+	"category" : "PoliteSmalltalk-Applications",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "WordCount",
+		"description",
+		"tag" ],
+	"name" : "Log Line",
 	"pools" : [
 		 ],
 	"super" : "PoliteClass",

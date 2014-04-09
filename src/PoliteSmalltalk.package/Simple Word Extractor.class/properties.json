@@ -1,0 +1,14 @@
+{
+	"category" : "PoliteSmalltalk-WordCount",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"text" ],
+	"name" : "Simple Word Extractor",
+	"pools" : [
+		 ],
+	"super" : "PoliteClass",
+	"type" : "normal" }
