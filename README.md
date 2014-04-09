@@ -31,5 +31,5 @@ Installation
 
 To get a taste of Polite run in your OS X terminal, or Linux console:
 
-    git clone https://github.com/mircealungu/Polite-Smalltalk.git
+    git clone https://github.com/mircealungu/polite.git
     cd Polite-Smalltalk/base-image && ./get-polite.sh
