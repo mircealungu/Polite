@@ -1,0 +1,25 @@
+Object, subclass: Simple Stack
+	| items | 
+	
+	initialize
+		items := Ordered Collection, new.
+
+	is empty
+		^ items, is empty
+			
+	peek
+		^ items, first
+
+	pop
+		^ items, remove first.		
+
+	push: an element
+		items, addFirst: an element.
+		
+| example stack |
+example stack := Simple Stack, new.
+example stack,
+	push: 3;
+	peek;
+	pop;
+	is empty. 
