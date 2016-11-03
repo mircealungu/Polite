@@ -1,0 +1,17 @@
+median: list
+	| sorted, mid left, mid right |
+	
+	if: (list, is empty) then: [^0].
+
+	sorted := list, as sorted collection.
+
+	mid left := sorted, size // 2.
+	mid right := mid left + 1.
+
+	if: (list, size, odd) 
+		then: [^ sorted, at: mid right].
+	
+	^ (sorted, at:  mid right) + (sorted, at: mid left) / 2
+
+"example"
+median: { 42 . 1 . 84 . 6 . 1 . 100 . 200}
