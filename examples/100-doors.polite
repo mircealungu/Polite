@@ -1,0 +1,44 @@
+" Preparing the language for the program
+--------------------------------------------------------" 
+open
+	^'O'
+	
+closed
+	^'' 
+	
+an:  (array class)  with cardinality: count
+	^array class, new: count
+
+set each element of: collection to: object
+	1, to: (collection, size) do: [:i|
+		collection, at: i put: object.
+		].
+	
+from: a to: b incrementing by: c do: something
+	a, to: b by: c do: [:i| something, value: i].
+
+from: a to: b do: something
+	a, to: b do: [:i| something, value: i].	
+	
+opposite of: status
+	status = closed, if true: [^open].
+	^closed
+	
+change the status of door: i in: collection
+	collection, at: i put: (opposite of: (collection, at: i)).
+
+" The main program 
+--------------------------------------------------------" 
+
+| doors, count  |
+count := 100.
+doors := an: Array with cardinality: count. 
+
+set each element of: doors to: closed.
+
+from: 1 to: count do: [:step |
+	from: step to: count incrementing by: step do: [:i|
+			change the status of door: i in: doors.
+		]
+	].
+doors
