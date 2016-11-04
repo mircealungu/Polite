@@ -6,14 +6,14 @@ open
 closed
 	^'' 
 	
-opposite of: status
+the opposite of: status
 	status = closed, if true: [^open].
 	^closed
 	
 change the status of door: i in: collection
 	| current status |
 	current status := collection, at: i. 
-	collection, at: i put: (opposite of: current status).
+	collection, at: i put: (the opposite of: current status).
 
 an:  (array class)  with cardinality: count
 	^array class, new: count
@@ -23,10 +23,10 @@ set each element of: collection to: object
 		collection, at: i put: object.
 		].
 	
-from: a to: b incrementing by: c do: something
-	a, to: b by: c do: [:i| something, value: i].
+with multiples of: a up to: b do: something
+	a, to: b by: a do: [:i| something, value: i].
 
-from: a to: b do: something
+with integers from: a to: b do: something
 	a, to: b do: [:i| something, value: i].	
 	
 	
@@ -40,9 +40,9 @@ doors := an: Array with cardinality: count.
 
 set each element of: doors to: closed.
 
-from: 1 to: count do: [:step |
-	from: step to: count incrementing by: step do: [:i|
-			change the status of door: i in: doors.
+with integers from: 1 to: count do: [:step| 
+	with multiples of: step up to: count  do: [:m|
+			change the status of door: m in: doors.
 		]
 	].
 doors
