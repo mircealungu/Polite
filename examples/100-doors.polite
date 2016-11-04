@@ -15,34 +15,37 @@ change the status of door: i in: collection
 	current status := collection, at: i. 
 	collection, at: i put: (the opposite of: current status).
 
-an:  (array class)  with cardinality: count
-	^array class, new: count
+an:  collection  with cardinality: count
+	^collection, new: count
 
 set each element of: collection to: object
 	1, to: (collection, size) do: [:i|
 		collection, at: i put: object.
 		].
 	
-with multiples of: a up to: b do: something
-	a, to: b by: a do: [:i| something, value: i].
-
-with integers from: a to: b do: something
-	a, to: b do: [:i| something, value: i].	
+integers from: a to: b
+	^a, to: b
 	
+for all: elements do: smtg
+	elements, do: smtg
+	
+with multiples of: a up to: b do: c
+	a, to: b by: a do: c
 	
 
 " The main program 
 --------------------------------------------------------" 
-
-| doors, count  |
-count := 100.
-doors := an: Array with cardinality: count. 
-
+| doors, total, rounds  |
+total := 100.
+doors := an: Array with cardinality: total. 
 set each element of: doors to: closed.
 
-with integers from: 1 to: count do: [:step| 
-	with multiples of: step up to: count  do: [:m|
-			change the status of door: m in: doors.
-		]
-	].
+rounds := integers from: 1 to: total. 
+
+for all: rounds do: [:round| 
+	with multiples of: round up to: total do: [:i |
+		change the status of door: i in: doors.
+		].
+].
+
 doors
