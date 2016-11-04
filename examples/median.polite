@@ -8,7 +8,7 @@ median: list
 	mid left := sorted, size // 2.
 	mid right := mid left + 1.
 
-	if: (list, size, odd) 
+	if: (sorted, size, odd) 
 		then: [^ sorted, at: mid right].
 	
 	^ (sorted, at:  mid right) + (sorted, at: mid left) / 2
