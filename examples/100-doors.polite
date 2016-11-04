@@ -6,6 +6,15 @@ open
 closed
 	^'' 
 	
+opposite of: status
+	status = closed, if true: [^open].
+	^closed
+	
+change the status of door: i in: collection
+	| current status |
+	current status := collection, at: i. 
+	collection, at: i put: (opposite of: current status).
+
 an:  (array class)  with cardinality: count
 	^array class, new: count
 
@@ -20,12 +29,7 @@ from: a to: b incrementing by: c do: something
 from: a to: b do: something
 	a, to: b do: [:i| something, value: i].	
 	
-opposite of: status
-	status = closed, if true: [^open].
-	^closed
 	
-change the status of door: i in: collection
-	collection, at: i put: (opposite of: (collection, at: i)).
 
 " The main program 
 --------------------------------------------------------" 
