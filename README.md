@@ -16,9 +16,9 @@ Finally, Polite is a modified Smalltalk; so all the power, and meta-power of tha
 
 Installation
 ------------
-(Warning: Polite is a prototype, and work in progress)
 
 To get a taste of Polite [download it from zenodo](https://zenodo.org/record/61578#.WDhvaqIrK9s)
+(Warning: Polite is a prototype, and work in progress)
 
 Contact Us
 ----------
