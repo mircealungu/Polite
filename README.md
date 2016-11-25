@@ -16,9 +16,9 @@ Finally, Polite is a modified Smalltalk; so all the power, and meta-power of tha
 
 Program Examples
 ----------------
-- [100 doors](https://github.com/mircealungu/Polite/blob/master/examples/100-doors.polite)
 - [Median](https://github.com/mircealungu/Polite/blob/master/examples/median.polite)
 - [Stack](https://github.com/mircealungu/Polite/blob/master/examples/stack.polite)
+- [100 doors](https://github.com/mircealungu/Polite/blob/master/examples/100-doors.polite)
 
 
 Installation
