@@ -14,6 +14,13 @@ In our opinion a syntax like the one of Polite will encourage people to write ni
 
 Finally, Polite is a modified Smalltalk; so all the power, and meta-power of that language is available to the Polite programmer. 
 
+Program Examples
+----------------
+- [100 doors](https://github.com/mircealungu/Polite/blob/master/examples/100-doors.polite)
+- [Median](https://github.com/mircealungu/Polite/blob/master/examples/median.polite)
+- [Stack](https://github.com/mircealungu/Polite/blob/master/examples/stack.polite)
+
+
 Installation
 ------------
 
