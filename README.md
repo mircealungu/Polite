@@ -24,8 +24,7 @@ Program Examples
 Installation
 ------------
 
-To get a taste of Polite [download it from zenodo](https://zenodo.org/record/61578#.WDhvaqIrK9s)
-(Warning: Polite is a prototype, and work in progress)
+To try out Polite [download the latest release from Zenodo](https://zenodo.org/record/61578#.WDhvaqIrK9s)
 
 Contact Us
 ----------
