@@ -24,7 +24,7 @@ Program Examples
 Installation
 ------------
 
-To try out Polite [download the latest release from Zenodo](https://zenodo.org/record/61578#.WDhvaqIrK9s)
+The easiest way to try out Polite is to [download it from Zenodo](https://zenodo.org/record/61578#.WDhvaqIrK9s)
 
 Contact Us
 ----------
